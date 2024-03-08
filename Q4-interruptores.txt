@@ -1,0 +1,15 @@
+Uma solução para o problema seria verificar a temperatura das lâpadas já que na questão não podemos ver as lâmpadas
+da sala que estamos.
+
+  PASSO A PASSO:
+  1. Ligar 1 interruptor e aguardar 10 minutos,em seguida desliga(permanescer na sala).
+  2. Verifica a temperatura da lâmpada(se tiver fria não pertence a essa sala).
+  3. Ligar segundo interruptor e aguardar mais 10 minutos.
+  4. Ir para segunda sala e verificar temperatura(se estiver quente então o segundo interruptor pertence a sala 2).
+  5. Retornar a sala de origem.
+  
+  Pela lógica, se o segundo interruptor esquenta a Segunda lâmpada e o primeiro não esquenta a primeira, logo:
+  - O primeiro interruptor é pertence a sala 3.
+  - O segundo a sala 2.
+  - O terceiro interruptor a sala 1.
+  
